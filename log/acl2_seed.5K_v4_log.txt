@@ -1,0 +1,70 @@
+Loading nuevomatch with batch size of 128...
+Log: (load) iSet size is 70, with 10 columns, 1 validation phases, and field index of 1. Total size: 3080 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Total rules after removing validation phase duplicates: 1113 (src/nuevomatch.cpp:438)
+Log: (load_subsets) iSet 0 holds 70 rules (coverage: 6.29) for field 1 with RQRMI size of 741 bytes (src/nuevomatch.cpp:445)
+Log: (load_subsets) NuevoMatch total coverage: 6.29% (src/nuevomatch.cpp:449)
+Log: (build_remainder) Manually building remainder classifier (remainder holds 1043 rules) (src/nuevomatch.cpp:524)
+Log: (group_subsets_to_cores) NuevoMatch worker 0 on CPU 0 holds: {OnlineTupleMerge iSet-0} of total 26426 KB. (src/nuevomatch.cpp:675)
+Classifier attributes:
+Total rules: 1113
+Total size (bytes): 741
+Build time (ms): 11626
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+Performance: total time 205143.414 usec. Average time: 0.293 usec per packet.
+Serial worker 0 total time: 205143.519 used, avg time per batch: 37.510 usec, publish time: 7517.460 us
+Remainder classifier total size: 25685 bytes
+Remainder classifier information
+Tuple Merge Classifier
+There are 36 tables:
+Table 0 with 284 rules
+Table 1 with 77 rules
+Table 2 with 90 rules
+Table 3 with 112 rules
+Table 4 with 8 rules
+Table 5 with 12 rules
+Table 6 with 18 rules
+Table 7 with 49 rules
+Table 8 with 26 rules
+Table 9 with 65 rules
+Table 10 with 24 rules
+Table 11 with 23 rules
+Table 12 with 20 rules
+Table 13 with 7 rules
+Table 14 with 22 rules
+Table 15 with 9 rules
+Table 16 with 1 rules
+Table 17 with 15 rules
+Table 18 with 13 rules
+Table 19 with 9 rules
+Table 20 with 6 rules
+Table 21 with 12 rules
+Table 22 with 5 rules
+Table 23 with 3 rules
+Table 24 with 2 rules
+Table 25 with 6 rules
+Table 26 with 10 rules
+Table 27 with 10 rules
+Table 28 with 16 rules
+Table 29 with 5 rules
+Table 30 with 13 rules
+Table 31 with 55 rules
+Table 32 with 3 rules
+Table 33 with 3 rules
+Table 34 with 9 rules
+Table 35 with 1 rules
+Collision Limit: 10
+Total rules: 1043
+Build time 0.000 ms
+Performance: total time 0 usec. Average time: -nan usec per packet.
+done.

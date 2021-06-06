@@ -1,0 +1,17 @@
+Loading nuevomatch with batch size of 128...
+Log: (load) iSet size is 169, with 22 columns, 1 validation phases, and field index of 9. Total size: 15548 bytes (src/interval_set.cpp:162)
+Log: (load) iSet size is 163, with 22 columns, 1 validation phases, and field index of 9. Total size: 14996 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 1. Extracted 163 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 154, with 22 columns, 1 validation phases, and field index of 9. Total size: 14168 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 2. Extracted 154 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 141, with 22 columns, 1 validation phases, and field index of 9. Total size: 12972 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 3. Extracted 141 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 139, with 22 columns, 1 validation phases, and field index of 7. Total size: 12788 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 4. Extracted 139 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 132, with 22 columns, 1 validation phases, and field index of 7. Total size: 12144 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 5. Extracted 132 rules. (src/nuevomatch.cpp:413)
+Log: (load_subsets) Total rules after removing validation phase duplicates: 5050 (src/nuevomatch.cpp:438)
+Log: (load_subsets) iSet 0 holds 169 rules (coverage: 3.35) for field 9 with RQRMI size of 741 bytes (src/nuevomatch.cpp:445)
+Log: (load_subsets) NuevoMatch total coverage: 3.35% (src/nuevomatch.cpp:449)
+Log: (build_remainder) Manually building remainder classifier (remainder holds 4881 rules) (src/nuevomatch.cpp:524)
+Exception: (build@vendor/tuple_merge.cpp:62) Cannot build TupleMerge classifier: number of rule fields != 5

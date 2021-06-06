@@ -1,0 +1,70 @@
+Loading nuevomatch with batch size of 128...
+Log: (load) iSet size is 97, with 10 columns, 1 validation phases, and field index of 3. Total size: 4268 bytes (src/interval_set.cpp:162)
+Log: (load) iSet size is 97, with 10 columns, 1 validation phases, and field index of 3. Total size: 4268 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 1. Extracted 97 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 91, with 10 columns, 1 validation phases, and field index of 3. Total size: 4004 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 2. Extracted 91 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 86, with 10 columns, 1 validation phases, and field index of 3. Total size: 3784 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 3. Extracted 86 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 80, with 10 columns, 1 validation phases, and field index of 3. Total size: 3520 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 4. Extracted 80 rules. (src/nuevomatch.cpp:413)
+Log: (load) iSet size is 72, with 10 columns, 1 validation phases, and field index of 3. Total size: 3168 bytes (src/interval_set.cpp:162)
+Log: (load_subsets) Skipping iSet 5. Extracted 72 rules. (src/nuevomatch.cpp:413)
+Log: (load_subsets) Total rules after removing validation phase duplicates: 1501 (src/nuevomatch.cpp:438)
+Log: (load_subsets) iSet 0 holds 97 rules (coverage: 6.46) for field 3 with RQRMI size of 741 bytes (src/nuevomatch.cpp:445)
+Log: (load_subsets) NuevoMatch total coverage: 6.46% (src/nuevomatch.cpp:449)
+Log: (build_remainder) Manually building remainder classifier (remainder holds 1404 rules) (src/nuevomatch.cpp:524)
+Log: (group_subsets_to_cores) NuevoMatch worker 0 on CPU 0 holds: {OnlineTupleMerge iSet-0} of total 35077 KB. (src/nuevomatch.cpp:675)
+Classifier attributes:
+Total rules: 1501
+Total size (bytes): 741
+Build time (ms): 67328
+Reading trace file...
+Total 700000 packets in trace
+Warming cache...
+Iteration 0...
+Iteration 1...
+Iteration 2...
+Iteration 3...
+Iteration 4...
+Repeating experiment 1 times
+Starting trace test for classifier with 700000 packets...
+Cache hit rate: 0.00, utilization: 0.00
+Classifier Information:
+Performance: total time 172978.712 usec. Average time: 0.247 usec per packet.
+Serial worker 0 total time: 172978.821 used, avg time per batch: 31.629 usec, publish time: 7596.435 us
+Remainder classifier total size: 34336 bytes
+Remainder classifier information
+Tuple Merge Classifier
+There are 26 tables:
+Table 0 with 693 rules
+Table 1 with 258 rules
+Table 2 with 52 rules
+Table 3 with 62 rules
+Table 4 with 75 rules
+Table 5 with 81 rules
+Table 6 with 18 rules
+Table 7 with 28 rules
+Table 8 with 32 rules
+Table 9 with 15 rules
+Table 10 with 12 rules
+Table 11 with 3 rules
+Table 12 with 5 rules
+Table 13 with 17 rules
+Table 14 with 2 rules
+Table 15 with 19 rules
+Table 16 with 5 rules
+Table 17 with 2 rules
+Table 18 with 7 rules
+Table 19 with 7 rules
+Table 20 with 3 rules
+Table 21 with 3 rules
+Table 22 with 2 rules
+Table 23 with 1 rules
+Table 24 with 1 rules
+Table 25 with 1 rules
+Collision Limit: 10
+Total rules: 1404
+Build time 0.000 ms
+Performance: total time 0 usec. Average time: -nan usec per packet.
+done.
